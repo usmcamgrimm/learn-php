@@ -1,10 +1,26 @@
 <?php
 
-define('NAME', 'Adrian'); # defines a constant
-// $name = "Adrian"; #defines a variable that you can overwrite
-$age = 45;
+$stringOne = 'my email is ';
+$stringTwo = 'usmcamgrimm@gmail.com';
 
-// $name = 'Mario';
+// echo $stringOne . $stringTwo;
+
+$name = 'Adrian';
+
+// echo 'Hey, my name is ' . $name;
+
+// echo "Hey, my name is $name"; # variable interpolation
+
+# Escape characters
+// echo "The ninja screamed \"whaaaa\"";
+// echo 'The ninja screamed "whaaa"';
+
+// echo $name[1];
+// echo strlen($name); # returns 6
+// echo strtoupper($name); # convert string to upper case
+// echo strtolower($name); # convert string to lower case
+// echo str_replace('d', 'r', $name); # replace d with r in the given string
+
 
 ?>
 
@@ -19,10 +35,6 @@ $age = 45;
 </head>
 
 <body>
-  <h1>User Profile Page</h1>
-
-  <div><?php echo NAME; ?></div>
-  <div><?php echo $age; ?></div>
 </body>
 
 </html>

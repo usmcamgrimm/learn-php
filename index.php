@@ -1,26 +1,27 @@
 <?php
 
-$stringOne = 'my email is ';
-$stringTwo = 'usmcamgrimm@gmail.com';
+$radius = 25; # integer
+$pi = 3.14; # float
 
-// echo $stringOne . $stringTwo;
+// Basic Operators + - * / **
 
-$name = 'Adrian';
+// echo $pi * $radius ** 2
+// echo 2 * (4 + 9) / 3; # returns 8.6666666666667
 
-// echo 'Hey, my name is ' . $name;
+// increment and decrement operators
+// echo $radius++;
+// echo $radius--;
 
-// echo "Hey, my name is $name"; # variable interpolation
+// Shorthand operators
+$age = 20;
+// echo $age += 10; # equivalent to $age = $age + 10;
+// echo $age -= 10; # equivalent to $age = $age - 10;
+// echo $age *= 2; #equivalent to $age = $age * 2;
 
-# Escape characters
-// echo "The ninja screamed \"whaaaa\"";
-// echo 'The ninja screamed "whaaa"';
-
-// echo $name[1];
-// echo strlen($name); # returns 6
-// echo strtoupper($name); # convert string to upper case
-// echo strtolower($name); # convert string to lower case
-// echo str_replace('d', 'r', $name); # replace d with r in the given string
-
+// functions with numbers
+// echo floor($pi); # round to nearest integer -> returns 3
+// echo ceil($pi); # round up to the nearest integer -> returns 4
+echo pi(); # returns the full value of pi
 
 ?>
 
